@@ -33,4 +33,4 @@ default_prefix_all_users: "%HOMEDRIVE%\\JupyterLab\\resources\\jlab_server"
 
 register_python_default: false
 
-post_install: "../scripts/post_install.sh"
+post_install: "../scripts/post_install.bat"

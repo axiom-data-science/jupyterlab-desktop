@@ -1,5 +1,4 @@
-#!/bin/sh
-source $PREFIX/etc/profile.d/conda.sh
+call %~dp0..\Scripts\activate.bat
 conda activate $PREFIX
 
 # Get extract_model and osma to install
