@@ -23,14 +23,14 @@ specs:
   - ipywidgets 7.6.5
   - jupyterlab 3.3.0
   - ipympl >= 0.8.2
-  - matplotlib-base
-  - numpy
-  - pandas
   - pip
   - python 3.8*
-  - scipy
+  - cartopy
+  - fiona
 
 default_prefix: "%HOMEDRIVE%\\JupyterLab\\resources\\jlab_server"
 default_prefix_all_users: "%HOMEDRIVE%\\JupyterLab\\resources\\jlab_server"
 
 register_python_default: false
+
+post_install: "../scripts/post_install.sh"
