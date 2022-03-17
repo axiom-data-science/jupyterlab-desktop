@@ -25,8 +25,24 @@ specs:
   - ipympl >= 0.8.2
   - pip
   - python 3.8*
+# from extract_model
+  - numpy
+  - cf_xarray
+  - cmocean
+  - dask
+  - matplotlib
+  - netcdf4
+  - requests
+  - scipy==1.6.2
+  - xarray
+  - xcmocean
+  - pyinterp
+# ocean_model_skill_assessor wouldn't pip install without these
   - cartopy
   - fiona
+  - pandas
+  - numcodecs
+  - git
 
 default_prefix: "%HOMEDRIVE%\\JupyterLab\\resources\\jlab_server"
 default_prefix_all_users: "%HOMEDRIVE%\\JupyterLab\\resources\\jlab_server"
